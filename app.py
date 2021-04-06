@@ -52,4 +52,4 @@ if __name__ == '__main__':
     # load weights into new model
 
     loaded_model.load_weights("./models/model.h5")
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True)
